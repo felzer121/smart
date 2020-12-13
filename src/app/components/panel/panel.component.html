@@ -1,0 +1,24 @@
+<div class="panel">
+  <app-sitebar></app-sitebar>
+  <div class="panel__container">
+    <div class="panel__header">
+      <div class="panel__control">
+        <div class="panel__search">
+          <app-search></app-search>
+        </div>
+        <div class="panel__menu">
+          <app-menu></app-menu>
+        </div>
+      </div>
+      <div class="panel__lk">
+        <app-panel-lk></app-panel-lk>
+      </div>
+    </div>
+    <div class="panel__content">
+      <app-widget></app-widget>
+      <app-title-table></app-title-table>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

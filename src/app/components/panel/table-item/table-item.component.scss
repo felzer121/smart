@@ -1,0 +1,55 @@
+.panel__table {
+  margin-top: 20px;
+  font-family: 'Futura', sans-serif;
+  padding-right: 35px;
+  &-title {
+    display: flex;
+  }
+  &-draggable {
+    display: flex;
+  }
+  &-heading {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 150px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #868E99;
+  }
+  &-id {
+    display: flex;
+    justify-content: center;
+    max-width: 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  &-item {
+    background-color: #FFFFFF;
+    margin-top: 8px;
+    display: flex;
+    height: 45px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+  &-container{
+    letter-spacing: 0.16px;
+    font-weight: 500;
+    color: #868E99;
+  }
+}

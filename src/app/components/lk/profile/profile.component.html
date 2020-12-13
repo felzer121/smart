@@ -1,0 +1,49 @@
+<mat-card>
+  <div class="profile-main">
+    <div class="profile-header">
+      <div class="avatar">
+        <img src="assets/img/no-avatar.png">
+      </div>
+      <div class="profile-name">
+        <span>{{userService.currentUserValue.name}}</span>
+        <mat-icon>edit</mat-icon>
+      </div>
+    </div>
+    <div class="profile-body">
+      <form class="profile-form">
+        <div class="row">
+          <div class="col-6 d-flex flex-column">
+            <mat-form-field appearance="outline">
+              <mat-label>Какое то поле</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Какое то поле</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Какое то поле</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+          <div class="col-6 d-flex flex-column">
+            <mat-form-field appearance="outline">
+              <mat-label>Какое то поле</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Какое то поле</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Какое то поле</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <button type="button" mat-raised-button color="primary">Сохранить</button>
+      </form>
+    </div>
+  </div>
+</mat-card>

@@ -1,0 +1,16 @@
+.panel__widget-item {
+  background-color: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-right: 35px;
+  max-width: 400px;
+}
+.panel__widget {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.panel__widget img{
+  width: 100%;
+}

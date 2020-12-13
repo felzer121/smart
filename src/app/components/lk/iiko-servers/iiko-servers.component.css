@@ -1,0 +1,50 @@
+.iiko-servers-main {
+  width: 100%;
+  display: flex;
+}
+
+table {
+  width: 100%;
+}
+
+.new-iiko-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.show-add-tariff-popup {
+  width: 100%;
+  text-align: left;
+}
+
+table thead tr th, table tbody tr td {
+  width: 50%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+table thead tr th:first-child, table tbody tr td:first-child {
+  width: 5% !important;
+}
+
+table thead tr, table tbody tr {
+  display: flex;
+}
+
+table thead tr {
+  background: #76879D;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.12);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: #FFFFFF;
+}

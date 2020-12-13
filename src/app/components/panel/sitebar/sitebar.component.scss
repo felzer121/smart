@@ -1,0 +1,44 @@
+$theme-main-color: #638CC0;
+$theme-sub-color: #B1C6E0;
+.sitebar {
+  width: 60px;
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  &__title {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $theme-main-color;
+  }
+  .mat-button {
+    padding: 0;
+  }
+  &__content {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+  .active {
+    background: $theme-sub-color;
+    svg {
+      fill: #FFFFFF;
+    }
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    transition: .5s;
+    svg {
+      transition: .5s;
+    }
+    &:hover svg {
+      fill: $theme-sub-color;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<button type="button" (click)="logout()" mat-raised-button color="primary">Выход</button>
+<mat-tab-group class="nav_lk">
+  <mat-tab class="test">
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">face</mat-icon>
+      Профиль
+    </ng-template>
+    <div class="lk_content">
+      <profile></profile>
+    </div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">dns</mat-icon>
+      Аккаунты iiko
+    </ng-template>
+    <div class="lk_content">
+      <iiko-servers></iiko-servers>
+    </div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">computer</mat-icon>
+      Терминалы
+    </ng-template>
+    <div class="lk_content">3</div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">photo_camera</mat-icon>
+      Камеры
+    </ng-template>
+    <div class="lk_content">4</div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">article</mat-icon>
+      Тарифный план
+    </ng-template>
+    <div class="lk_content">5</div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">groups</mat-icon>
+      Аккаунты
+    </ng-template>
+    <div class="lk_content">6</div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">notifications</mat-icon>
+      Оповещения
+    </ng-template>
+    <div class="lk_content">7</div>
+  </mat-tab>
+</mat-tab-group>

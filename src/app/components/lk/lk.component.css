@@ -1,0 +1,15 @@
+.lk_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+profile, iiko-servers {
+  width: 100%;
+}
+
+.nav_lk {
+  height: 100%;
+}

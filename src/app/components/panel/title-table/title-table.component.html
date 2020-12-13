@@ -1,0 +1,39 @@
+<div class="panel__title-table">
+  <h3>информация</h3>
+  <div class="panel__table-controllers">
+    <div class="panel__title-info">
+      <div class="panel__title-icon">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.8334 14.1667H18.3334L15 17.5L11.6667 14.1667H14.1667V2.5H15.8334V14.1667ZM9.16669 10.8333V12.5L6.39169 15.8333H9.16669V17.5H4.16669V15.8333L6.94169 12.5H4.16669V10.8333H9.16669ZM7.50002 2.5H5.83335C4.91669 2.5 4.16669 3.25 4.16669 4.16667V9.16667H5.83335V7.5H7.50002V9.16667H9.16669V4.16667C9.16669 3.72464 8.99109 3.30072 8.67853 2.98816C8.36597 2.67559 7.94205 2.5 7.50002 2.5ZM7.50002 5.83333H5.83335V4.16667H7.50002V5.83333Z" fill="#333333"/>
+        </svg>
+      </div>
+      <form class="example-container" [formGroup]="options">
+        <mat-form-field appearance="fill" [color]="colorControl.value">
+          <mat-label>Фильтр</mat-label>
+          <mat-select [formControl]="colorControl">
+            <mat-option value="primary">По статусу</mat-option>
+            <mat-option value="accent">Accent</mat-option>
+            <mat-option value="warn">Warn</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </form>
+    </div>
+    <div class="panel__title-tab">
+      <a mat-button [routerLink]="['/panel/events/tile']" [routerLinkActive]="'active'">
+        <div class="panel__switch-layer">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#76879D" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 16L19.36 10.27L21 9L12 2L3 9L4.63 10.27L12 16ZM12 18.54L4.62 12.81L3 14.07L12 21.07L21 14.07L19.37 12.8L12 18.54Z" />
+          </svg>
+        </div>
+      </a>
+      <a mat-button [routerLink]="['/panel/events/table']" [routerLinkActive]="'active'">
+        <div class="panel__switch-table">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#76879D" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 4H7V8H3V4ZM9 5V7H21V5H9ZM3 10H7V14H3V10ZM9 11V13H21V11H9ZM3 16H7V20H3V16ZM9 17V19H21V17H9Z" />
+          </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+

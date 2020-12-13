@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/font/FuturaPT-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../assets/font/FuturaPT-LightObl.woff') format('ttf');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/font/FuturaPT-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../assets/font/FuturaPT-BookObl.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/font/FuturaPT-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../assets/font/FuturaPT-MediumObl.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/font/FuturaPT-Demi.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../assets/font/FuturaPT-DemiObl.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/font/FuturaPT-Heavy.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../assets/font/FuturaPT-HeavyObl.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../assets/font/FuturaPT-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../assets/font/FuturaPT-BoldObl.woff') format('woff');
+}

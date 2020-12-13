@@ -1,0 +1,245 @@
+
+.mat-button {
+  background-color: #373639;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14));
+  padding: 14px 40px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mini-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.dialog-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #E6E6E6;
+  margin-bottom: 5px;
+}
+.dialog-tariff {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: space-between;
+
+  &__info {
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Futura', sans-serif;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    max-width: 30%;
+    padding: 18px;
+    width: 100%;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15px 0;
+    border-radius: 4px;
+    font-family: 'Futura', sans-serif;
+    color: #FFFFFF;
+    span {
+      padding-left: 8px;
+    }
+  }
+
+  .basic {
+    background: linear-gradient(13.96deg, #577BA9 2.81%, #7C9BC2 95.98%), #FFFFFF;
+    box-shadow: 2px 2px 22px rgba(51, 51, 51, 0.25);
+    border-radius: 2px;
+
+    .dialog-tariff__price {
+      background: rgba(79, 112, 153, 0.35);
+    }
+    .dialog-tariff__quantity-basic {
+      background: rgba(79, 112, 153, 0.35);
+    }
+  }
+
+  .advanced {
+    background: linear-gradient(327.94deg, #D77353 36.99%, #F5EC8F 107.72%);
+    box-shadow: 2px 2px 22px rgba(51, 51, 51, 0.25);
+    border-radius: 2px;
+
+    .dialog-tariff__price {
+      background: rgba(200, 106, 77, 0.35);
+    }
+
+    .dialog-tariff__quantity-advanced {
+      background: rgba(200, 106, 77, 0.35);
+    }
+  }
+
+  .ultima {
+    background: linear-gradient(340deg, #598E67 24.12%, #CCD86E 99.35%);
+    box-shadow: 2px 2px 22px rgba(51, 51, 51, 0.25);
+    border-radius: 2px;
+  }
+
+  .dialog-tariff__price {
+    background: rgba(85, 123, 97, 0.25);
+  }
+
+  .dialog-tariff__quantity-ultima {
+    background: rgba(85, 123, 97, 0.25);
+  }
+}
+
+.dialog-tariff__label {
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-basic {
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border-bottom: solid 1px rgba(94, 123, 160, 0.6);
+  }
+  &-advanced {
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border-bottom: solid 1px rgba(150, 107, 98, 0.3);
+  }
+  &-ultima {
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border-bottom: solid 1px rgba(85, 123, 97, 0.3);
+  }
+
+  .dialog-tariff__title {
+    display: flex;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    align-items: center;
+    span {
+      font-weight: 500;
+      padding-left: 8px;
+      font-size: 12px;
+      color: #FFFFFF;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  &-quality {
+    font-family: 'Futura', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 15px;
+  }
+  &-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(79, 112, 153, 0.35);
+    border-radius: 4px;
+    width: 35px;
+    height: 25px;
+    span {
+      font-weight: 600;
+      font-size: 16px;
+      color: #FFFFFF;
+      font-family: 'Futura', sans-serif;
+    }
+  }
+}
+
+
+.dialog-title h4{
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  color: #333333;
+  text-transform: uppercase;
+  font-family: 'Futura', sans-serif;
+}
+
+.dialog-subtitle {
+  width: 100%;
+  margin-bottom: 5px;
+  &__line {
+    position: relative;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+
+    span {
+      margin-left: 40px;
+      background-color: #fafafa;
+      z-index: 10;
+      padding: 0 13px;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: #C4C4C4;
+    }
+  }
+  &__line-title {
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+  }
+  &__content {
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

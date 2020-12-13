@@ -1,0 +1,35 @@
+<div class="singIn">
+  <div class="singIn__container">
+    <div class="singIn__login">
+      <div class="singIn__login-content">
+        <div class="singIn__logo"><a href="#"><img src="assets/img/logo.png" alt=""></a></div>
+        <div class="singIn__authorization">
+          <div class="singIn__logged">
+            <div class="singIn__title">
+              <h1>{{locale.authorization_title}}</h1>
+            </div>
+            <span class="singIn__description"><img src="assets/svg/mdi_how_to_reg.svg" alt="">{{locale.authorization_subtitle}}</span>
+          </div>
+          <form class="form-inline singIn__form">
+            <mat-form-field appearance="outline">
+              <mat-label>{{locale.authorization_titleLogin}}</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>{{locale.authorization_titlePassword}}</mat-label>
+              <input matInput >
+            </mat-form-field>
+            <button type="button" (click)="login()" mat-raised-button color="primary">{{locale.authorization_button}}</button>
+          </form>
+        </div>
+        <div class="singIn__registration">
+          <div class="singIn__line"><span class="singIn__line-title">ИЛИ</span></div>
+          <span class="singIn__registration-desc">Не имеете учетной записи? <a href="#">Регистрация</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="singIn__info">
+      <img class="singIn__subContent" src="assets/img/login-fon.jpg" alt="">
+    </div>
+  </div>
+</div>

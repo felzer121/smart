@@ -1,0 +1,47 @@
+.avatar img {
+  width: 150px;
+}
+
+.profile-main {
+  display: flex;
+  width: 100%;
+}
+
+.profile-body {
+  margin-left: 5em;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-name span {
+  font-weight: 600;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+}
+
+.profile-name mat-icon {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 100px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  cursor:pointer;
+}

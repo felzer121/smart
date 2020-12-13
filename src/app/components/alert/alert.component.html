@@ -1,0 +1,7 @@
+<div class="alerts-block">
+  <div *ngFor="let message of messages" [ngClass]="message.cssClass">
+    <h3>{{message.title}}</h3>
+    <hr>
+    <h5>{{message.text}}</h5>
+  </div>
+</div>
